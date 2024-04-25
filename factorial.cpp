@@ -8,6 +8,7 @@ int main() {
   for (int i = 1; i <= n; ++i) {
     fact *= i;
   }
+  cout << "This is the result of " << n << " factorial = ";
   cout << fact << '\n';
   return 0;
 }
